@@ -2,6 +2,8 @@ from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
+# ajout d'un commentaire
+
 
 @app.route('/f')
 def index():
